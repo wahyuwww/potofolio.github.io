@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@700&family=Open+Sans:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Open Sans";
+}
+
+/* Heading */
+.h1-custom {
+  color: #01015e;
+  font-size: 64px;
+  font-weight: 700;
+  font-family: "Archivo";
+}
+.h2-custom {
+  color: #01015e;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Archivo";
+}
+.h3-custom {
+  color: #01015e;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: "Archivo";
+}
+.h4-custom {
+  color: #01015e;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Archivo";
+}
+
+.p-secondary {
+  font-style: normal;
+  font-weight: normal;
+  color: #555555;
+  font-size: 18px;
+  line-height: 32px;
+}
+.p-primary {
+  font-style: normal;
+  color: #01015e;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+.p-left-border {
+  font-style: normal;
+  font-weight: normal;
+  color: #555555;
+  font-size: 18px;
+  line-height: 32px;
+  border-left: 3px solid #01015e;
+  padding-left: 16px;
+}
+
+button.btn-custom-primary {
+  padding: 14px 28px;
+  border: none;
+  background-color: #3c50e0;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+button.btn-custom-secondary {
+  padding: 14px 28px;
+  border: 1px solid #3c50e0;
+  background-color: transparent;
+  border-radius: 8px;
+  color: #3c50e0;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+a.btn-custom-link {
+  padding: 14px 28px;
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+  color: #3c50e0;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+button.btn-custom-primary:hover {
+  box-shadow: 0px 8px 30px rgba(60, 80, 224, 0.47);
+  transform: scale(1.01);
+  transition: 0.3s;
+}
+
+.form-custom {
+  display: flex;
+  align-items: center;
+  height: 54px;
+}
+.form-custom input {
+  border: 1px solid #555555;
+  font-size: 18px;
+  height: 100%;
+  margin-right: 8px;
+  width: 342px;
+  border-radius: 8px;
+}
+
+a.link-custom {
+  color: #3c50e0 !important;
+}
+
+a.link-custom.active {
+  font-weight: 700;
+}
+
+.w-70 {
+  width: 70%;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+.mt-42 {
+  margin-top: 42px;
+}
+.mt-24 {
+  margin-top: 24px;
+}
+.bg-blue {
+  background-color: #edefff !important;
+}
+.mt-72 {
+  margin-top: 72px;
+}
+.mt-32 {
+  margin-top: 32px;
+}
+.mt-64 {
+  margin-top: 64px;
+}
+.mt-112 {
+  margin-top: 112px;
+}
+@media (max-width: 600px) {
+  .h1-custom {
+    font-size: 54px;
+  }
+  .w-70 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,227 @@
+body {
+  overflow-x: hidden !important;
+  position: relative;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.hero-section {
+  position: relative;
+  height: 90vh;
+}
+.bg-blue-hero {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  background-color: #edefff;
+}
+img.hero-img {
+  position: absolute;
+  bottom: 0;
+}
+
+nav.navbar {
+  height: 10vh !important;
+  z-index: 99;
+}
+
+.hero-heading {
+  margin-top: 148px;
+}
+
+img.object-hero-1 {
+  position: absolute;
+  top: 50%;
+  left: 85%;
+}
+img.object-hero-2 {
+  position: absolute;
+  top: 60%;
+  left: 10%;
+}
+
+section.brand-section {
+  padding: 92px 0;
+}
+.col-brand {
+  height: 20vh;
+  width: 100%;
+}
+section.project-section {
+  padding: 36px 0;
+}
+.row-project {
+  margin-top: 42px;
+}
+
+img.img-project {
+  max-width: 324px;
+}
+
+section.ads-section {
+  background-color: #01015e;
+  height: 80vh;
+  width: 100%;
+  margin-top: 112px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  padding-left: 64px;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  overflow: hidden;
+}
+.l-content {
+  width: 46%;
+}
+.l-content p {
+  margin-top: 16px;
+}
+.l-content button {
+  margin-top: 32px;
+}
+.r-content {
+  position: absolute;
+  background-color: #eef5ff;
+  width: 46%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-red {
+  background-color: #ff5670;
+  padding: 64px;
+  border-radius: 20px;
+}
+.card-red button {
+  margin-top: 32px;
+  color: #ff5670;
+}
+.card-red button:hover {
+  box-shadow: none;
+}
+.card-blue {
+  background-color: #4141c3;
+  padding: 64px;
+  border-radius: 20px;
+}
+.card-blue button {
+  margin-top: 32px;
+  color: #4141c3;
+}
+.card-blue button:hover {
+  box-shadow: none;
+}
+section.promotion-section {
+  margin-bottom: 112px;
+}
+section.rating-section {
+  margin-bottom: 112px;
+}
+.card-review {
+  border: 1px solid #ededed;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s;
+}
+.detail-client {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.card-review:hover {
+  transform: scale(1.01);
+  transition: 0.3s;
+  box-shadow: 0px 8px 38px rgba(0, 0, 0, 0.08);
+}
+section.blog-section {
+  margin-bottom: 112px;
+}
+
+/* Pop Up */
+.pop-up-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.12);
+  z-index: 99;
+}
+.pop-up-box .modal-pop-up {
+  z-index: 100;
+  padding: 24px;
+  border-radius: 8px;
+  transform: translateY(50%);
+}
+.box-social-share {
+  width: 70%;
+}
+.icon-close img {
+  cursor: pointer;
+}
+.btn-share img {
+  cursor: pointer;
+}
+
+/* Animation */
+
+.object-hero-1 {
+  animation: float1 3s infinite;
+}
+.object-hero-2 {
+  animation: float1 4s infinite;
+}
+
+@keyframes float1 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 600px) {
+  .box-social-share {
+    width: 100%;
+  }
+  .hero-heading {
+    margin-top: 42px;
+  }
+  .bg-blue-hero {
+    height: 110vh;
+    max-width: 100%;
+  }
+  .col-brand img {
+    max-width: 200px;
+  }
+  section.ads-section {
+    height: 170vh;
+    padding: 32px;
+    flex-direction: column;
+  }
+  .l-content {
+    width: 100%;
+  }
+  .r-content {
+    top: 60%;
+    width: 100%;
+  }
+  .card-blue {
+    margin-top: 30px;
+  }
+}
